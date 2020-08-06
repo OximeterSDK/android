@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:descendantFocusability="blocksDescendants"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:layoutDirection="ltr">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="vertical"
+>
+
+        <TextView
+            android:id="@+id/ble_list_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:text="name"
+            android:textColor="@color/item_ble_name"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/ble_list_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:layout_marginTop="2dp"
+            android:text="no:123456789"
+            android:textColor="@color/item_ble_name"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ble_list_rssi"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="-85"
+        android:textColor="@color/item_ble_name"
+        android:textSize="16sp" />
+
+</RelativeLayout>

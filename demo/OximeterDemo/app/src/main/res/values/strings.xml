@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">OximeterDemo</string>
+    <string name="start_scan">start scan</string>
+    <string name="stop_scan">stop  scan</string>
+    <string name="connect_success">connect  success</string>
+    <string name="connect_fail">connect  fail</string>
+    <string name="nofity_success">nofity  success</string>
+    <string name="nofity_fail">nofity  fail</string>
+    <string name="sys_blue_state_open">sys  blue  state:open</string>
+    <string name="sys_blue_state_close">sys  blue  state:close</string>
+    <string name="bluetooth_state_connect">bluetooth  state:connect</string>
+    <string name="bluetooth_state_disconnect">bluetooth  state:disconnect</string>
+    <string name="read_base_info">read  base  info</string>
+    <string name="base_info">base  info</string>
+    <string name="read_battery_info">read  battery  info</string>
+    <string name="battery_info">battery  info</string>
+    <string name="start_recevice_data">start  recevice  data</string>
+    <string name="stop_recevice_data">stop  recevice  data</string>
+    <string name="wehter_recevice_data">wether  recevice  data</string>
+    <string name="listen_detect_result">listen  detect  result</string>
+    <string name="detect_result">detect  result</string>
+    <string name="listen_curve_result">listen  curve  result</string>
+    <string name="curve_result">curve  result</string>
+    <string name="disconnect_device">disconnect  device</string>
+    <string name="write_success">write  success</string>
+    <string name="write_fail">write  fail</string>
+</resources>
