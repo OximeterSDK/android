@@ -1,0 +1,5 @@
+com.vphealthy.oximetersdk
+com.vphealthy.oximetersdk.listener.base
+com.vphealthy.oximetersdk.listener.data
+com.vphealthy.oximetersdk.model.data
+com.vphealthy.oximetersdk.model.enums
